@@ -1,23 +1,24 @@
- @import url('https://fonts.googleapis.com/css2?family=Dosis:wght@400&display=swap');
-
-html, body{
-  background-color: #061a27;
-  align-items: center;
-  margin-left:50px;
-  margin-right: 50px;
-  min-height: 100vh;
-color:white;
-font-family: 'Dosis', sans-serif;
-word-spacing: 3px;
-letter-spacing: 2px;
+@import url("https://fonts.googleapis.com/css?family=Niramit:300,300i,700");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-
-button{
-word-spacing: 3px;
-letter-spacing: 2px;
-text-decoration: none;
-border: 0.5px solid #061a27;
+body {
+  font-family:"Century Gothic";
+  background: #1e1e2f;
+  letter-spacing: 1px;
 }
 
+.container {
+  max-width: 650px;
+  margin: 50px auto;
+}
 
+p {
+  font-weight: 300;
+  line-height: 1.5;
+  font-size: 14px;
+  opacity: 0.8;
+}
